@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광주</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fontawesome/css/font-awesome.min.css">
+    <script src="/js/jquery-3.5.0.min.js"></script>
+    <script src="/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="/js/loaction.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 헤더 -->
+        <header id="header">
+            <div class="layout">
+                <!-- 유틸리티 -->
+                <div class="top">
+                    <div class="inner_wrap">
+                        <div class="top_box">
+                            <a href="#">전라북도청</a>
+                            <a href="#">LOGIN</a>
+                            <a href="#">JOIN</a>
+
+                            <input type="text" name="search" id="search" placeholder="search">
+                            <button type="search"><i class="fa  fa-search"></i></button>
+
+                            
+                            <select name="lang" id="lang">
+                                <option value="한국어">한국어</option>
+                                <option value="English">English</option>
+                                <option value="中文(简体)">中文(简体)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="inner_wrap">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./img/logo.png" alt="logo" title="logo">
+                            </a>
+                        </div>
+    
+                        <input type="checkbox" name="menubtn" id="menubtn" hidden>
+                        <label for="menubtn">
+                            <i class="fa fa-align-justify"></i>
+                            <i class="fa fa-close"></i>
+                        </label>
+    
+                        <nav>
+                            <ul class="menu_con">
+                                <li class="main_menu"><a href="#">HOME</a></li>
+                                <li class="main_menu"><a href="/festival.html">전북 대표 축제</a></li>
+                                <li class="main_menu"><a href="#">축제 정보</a></li>
+                                <li class="main_menu"><a href="#">축제 일정</a></li>
+                                <li class="main_menu"><a href="/current.html">환율안내</a></li>
+                                <li class="main_menu">
+                                    <a href="#">종합지원센터</a>
+                                    <ul class="sub_menu">
+                                        <li class="sub"><a href="./sub.html">공지사항</a></li>
+                                        <li class="sub"><a href="#">센터 소개</a></li>
+                                        <li class="sub"><a href="#">관광정보 문의</a></li>
+                                        <li class="sub"><a href="#">공공 데이터 개방</a></li>
+                                        <li class="sub location" ><a href="#">찾아오시는 길</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="modal" id="locat_modal">
+            <div class="modal_con">
+                <div class="modal_head">
+                    <p>찾아 오시는 길을 표시할수 없습니다.</p>
+                    <button class="close">&times;</button>
+                </div>
+            </div>
+        </div>
+        <!-- 비주얼 -->
+        <div class="viaul">
+            <ul class="vis_img">
+                <li>
+                    <div class="text">
+                        <p>
+                            <span class="c_1">전통</span>ㆍ<span class="c_2">문화</span>ㆍ<span class="c_3">축제</span>가 살아  숨쉬는 전라북도<br>
+                            <span class="textsize">전북축제On!</span> 홈페이지에 오신것을 환영합니다.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <p>
+                            <span class="textsize">전주 비빔밥 축제</span><br>
+                            <span class="c_2">비벼봐</span> 신나게!  <span class="c_3">즐겨봐</span> 맛나게!<br>
+                            2020.10.09~10.12
+                    </div>
+                    </p>
+                </li>
+                <li>
+                    <div class="text">
+                        <p>
+                            제90회 <span class="textsize">춘향제</span><br>
+                            <span class="c_1">남원광한루원</span> 2020.9.10~9.13
+                    </div>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 컨텐츠 -->
+        <div id="content">
+            <!-- 이달의 축제 -->
+            <div class="con1">
+                <div class="inner_wrap">
+                    <div class="title">
+                        <p class="sub_title">전북축제On!</p>
+                        <p>이달의 축제</p>
+                    </div>
+                    <div class="con1_con">
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con1_1.jpg" alt="con1" title="con1">
+                            </div>
+                            <div class="text_box">
+                                <h3>전주한지문화축제</h3>
+                                <p class="text_con">
+                                    1997년 시작으로 전라북도 전주시에 5월에 개최하는 축제로, 천년전주 한지의 우수성을 널리 알리고, 전통한지공예 경진대회를 통하여 전국의 우수 공예인을 발굴하는 한편, 전주한지 산업화에 기여하고자 합니다.  한지가 가지는 다양한 기능을 문화로 재해석하여 천년동안 사람과 함께 어울렸던 한지를 축제를 통해 표현하고 전주한지의 비전을 제시하고 교류하는 전주를 대표하는 축제입니다.
+                                </p>
+                                <div class="btns">
+                                    <button type="button">축제정보</button>
+                                    <button type="button">후기작성</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con1_2.jpg" alt="con1" title="con1">
+                            </div>
+                            <div class="text_box">
+                                <h3>전주세계소리축제</h3>
+                                <p class="text_con">
+                                    전주세계소리축제는 우리 전통음악을 중심으로 세계 다양한 월드뮤직을 한자리에서 만날 수 있는 축제입니다. 우리음악을 기반으로 한 다양한 실험과 시도, 해외 뮤지션들과의 콜라보 등 매력적이고 창의적인 기획으로 매해 가을, 관객을 찾아갑니다. 특히 어린이소리축제를 통해 어린이와 가족단위 관람객을 위한 풍성한 공연과 체험, 워크숍이 준비되어 있습니다. 2018 전주세계소리축제는 세계 월드뮤직축제를 대상으로 평가되는 TWMC 베스트 페스티벌에서 1위를 수상하며 우리나라를 뛰어 넘어 세계적인 축제로 그 위상을 인정받았습니다.
+                                </p>
+                                <div class="btns">
+                                    <button type="button">축제정보</button>
+                                    <button type="button">후기작성</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con1_3.jpg" alt="con1" title="con1">
+                            </div>
+                            <div class="text_box">
+                                <h3>임실N치즈축제</h3>
+                                <p class="text_con">
+                                    임실N치즈축제는 전북 임실에서 개최된다. 임실치즈가 대한민국 대표 치즈브랜드로서 임실치즈의 우수성을 널리 알리고자 임실치즈와 체험관광을 접목한 새로운 축제를 개최한다. 두메산골 한우와 떠나는 치즈여행이라는 부제로 열리는 임실N치즈축제에서는 암소한우만으로 구성된 한우명품관과 치즈요리를 맛보는 치즈요리관을 만날 수 있고 홈메이드 치즈 제조와 치즈 과학 실험 등 다양한 치즈체험, 낙농체험 등을 즐길 수 있어 즐거움과 배움을 동시에 만족할 수 있다.
+                                </p>
+                                <div class="btns">
+                                    <button type="button">축제정보</button>
+                                    <button type="button">후기작성</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con1_4.jpg" alt="con1" title="con1">
+                            </div>
+                            <div class="text_box">
+                                <h3>가맥축제</h3>
+                                <p class="text_con">
+                                    안주 맛에 놀라고 맥주 맛에 반하다! 오늘 만든 맥주를 오늘 마실 수 있는 유일한 축제
+                                </p>
+                                <div class="btns">
+                                    <button type="button">축제정보</button>
+                                    <button type="button">후기작성</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con1_5.jpg" alt="con1" title="con1">
+                            </div>
+                            <div class="text_box">
+                                <h3>익산 천만송이 국화축제</h3>
+                                <p class="text_con">
+                                    매년 10월말 ~ 11월초 사이 익산 중앙체육공원에서 열리는 축제이며, 국화 야외 전시 및 우리지역 농특산물 홍보 및 판매, 전국 국화작품 경연대회, 문화공연 등 다채로운 행사가 열린다. 전 시민이 함께하는 지역축제로서 주요도심 국화식재 및 축제기간에 아파트 베란다, 상가, 각급기관, 단체 등에 국
+                                </p>
+                                <div class="btns">
+                                    <button type="button">축제정보</button>
+                                    <button type="button">후기작성</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 추천축제 -->
+            <div class="con2">
+                <div class="inner_wrap">
+                    <div class="title">
+                        <p class="sub_title">전북축제On!</p>
+                        <p>추천축제</p>
+                    </div>
+                    <div class="con2_con">
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con2_1.jpg" alt="con2" title="con2">
+                            </div>
+                            <div class="text_box">
+                                <p class="text_con">
+                                    <span class="color">지역</span>  완주 <br>
+                                    <span class="color">축제명</span>  완주와일드푸드축제 <br>
+                                    <span class="color">기간</span>  2019.09.27~09.29 <br>
+                                </p>
+                                <button type="button">자세히보기</button>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con2_2.jpg" alt="con2" title="con2">
+                            </div>
+                            <div class="text_box">
+                                <p class="text_con">
+                                    <span class="color">지역</span>  부안 <br>
+                                    <span class="color">축제명</span>  부안마실축제 <br>
+                                    <span class="color">기간</span>  2020.05.02~05.05 <br>
+                                </p>
+                                <button type="button">자세히보기</button>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img_box">
+                                <img src="./img/con2_3.jpg" alt="con2" title="con2">
+                            </div>
+                            <div class="text_box">
+                                <p class="text_con">
+                                    <span class="color">지역</span>  고창 <br>
+                                    <span class="color">축제명</span>  복분자와 수박 대축제 <br>
+                                    <span class="color">내용</span>  2019.06.21~06.23 <br>
+                                </p>
+                                <button type="button">자세히보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 축제가이드 -->
+            <div class="con3">
+                <div class="inner_wrap">
+                    <div class="title">
+                        <p class="sub_title">전북축제On!</p>
+                        <p>축제가이드</p>
+                    </div>
+                    <ul class="con3_con">
+                        <li>
+                            <i class="fa fa-map-marker"></i><br>
+                            <p>내주변축제</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-joomla"></i><br>
+                            <p>축제 홍보물 신청</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-bus"></i><br>
+                            <p>교통안내</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-map"></i><br>
+                            <p>관광안내소</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-star"></i><br>
+                            <p>시티투어</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-picture-o"></i><br>
+                            <p>전북행 휴(休)</p>
+                            <a href="#">바로가기 <i class="fa fa-sign-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 최근 게시물 -->
+            <div class="con4">
+                <div class="inner_wrap">
+                    <div class="title">
+                        <p class="sub_title">전북축제On!</p>
+                        <p>최근 게시물</p>
+                    </div>
+                    <div class="con4_con">
+                        <input type="checkbox" name="table1btn" id="table1btn" hidden>
+                        <label for="table1btn">
+                            <span class="btn">공지사항</span>
+                            <span class="btn">축제뉴스</span>
+                        </label>
+                        <div class="t_1">
+                            <h3>[공지사항]</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>제목</th>
+                                        <th>작성일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>군산공항 이용안내(2019.03.31 부터~)</td>
+                                        <td>2020-08-12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2020년 하반기 관광진흥개발기금 융자지원지침 안내</td>
+                                        <td>2020-08-07</td>
+                                    </tr>
+                                    <tr>
+                                        <td>청정전북 숨겨진 테마별 관광지</td>
+                                        <td> 2020-08-04</td>
+                                    </tr>
+                                    <tr>
+                                        <td>낙후된 전북 동부권 개발 3단계 착수 … 5년간 1800억 투입	</td>
+                                        <td> 2020-08-01</td>
+                                    </tr>
+                                    <tr>
+                                        <td>전북관광브랜드공연 뮤지컬‘홍도1589’공연 재개</td>
+                                        <td> 2020-07-27</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="t_2">
+                            <h3>[축제뉴스]</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>제목</th>
+                                        <th>작성일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>전북도 2020년도 문화관광축제 5개 선정</td>
+                                        <td>2020-08-06</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2020년 시군 축제 평가 및 컨설팅 민간위탁 수탁기관 공개모집 공고</td>
+                                        <td>2020-08-01</td>
+                                    </tr>
+                                    <tr>
+                                        <td>제16회 익산 천만송이 국화축제 개막…첫날부터 '인산인해'	</td>
+                                        <td> 2020-07-28</td>
+                                    </tr>
+                                    <tr>
+                                        <td>핑크빛 물결의 습격, 축제까지 열리는 외래종 '핑크뮬리'</td>
+                                        <td> 2020-07-23</td>
+                                    </tr>
+                                    <tr>
+                                        <td>국립무형유산원에서 펼쳐지는 무형문화재 대축제</td>
+                                        <td> 2020-07-13</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 풋터 -->
+        <footer id="footer">
+            <div class="top">
+                <div class="inner_wrap">
+                    <p>이용안내</a> | 
+                    <a href="#">바로가기 </a> | 
+                    <a href="#">개인정보 처리방침</a> | 
+                    <a href="#">저작권 보호정책</a> | 
+                    <a href="#">도로명 주소안내</a> | 
+                    <a href="#">사이트오류 신고</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="inner_wrap">
+                    <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo" title="logo"></a></div><br>
+                    <p>인천시 부평구 무네미로 448번길 77 한국산업인력공단 글로벌숙련기술진흥원 <br>COPYRIGHTⓒ 2016 HRDKOREA</p>
+                    <div class="sns">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-google-plus-square"></i>
+                        <i class="fa fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
